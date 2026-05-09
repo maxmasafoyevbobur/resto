@@ -544,3 +544,95 @@ p {
     transition: 0.3s;
     transform: translateY(-3px);
 }
+
+#main-section-5 {
+    margin-top: 80px;
+}
+
+.main-section__5 {
+    text-align: center;
+}
+
+.main-section__5 h5{
+    color: red;
+    font-weight: 100;
+}
+
+.main-section__5 h5:hover{
+    color: blue;
+    transition: 0.3s;
+    transform: translateY(-3px);
+}
+
+.main-section__5 h1{
+    font-weight: bold;
+}
+
+.main-section__5 h1:hover{
+    color: red;
+    transition: 0.3s;
+    transform: translateY(-3px);
+}
+
+.umumiy-chef {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+
+.chef-1 {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 600px;
+    background-image: url(../images/img/chef-1.jpg);
+}
+.chef-2 {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 600px;
+    background-image: url(../images/img/chef-2.jpg);
+}
+.chef-3 {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 600px;
+    background-image: url(../images/img/chef-3.jpg);
+}
+
+.chef-1 button{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 22px 33%;
+    border: 5px solid white;
+    background-color: white;
+    margin-top: 498px;
+    margin-left: 14px;
+}
+
+
+.chef-2 button{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 22px 33%;
+    border: 5px solid white;
+    background-color: white;
+    margin-top: 498px;
+    margin-left: 8px;
+}
+
+
+.chef-3 button{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 22px 33%;
+    border: 5px solid white;
+    background-color: white;
+    margin-top: 498px;
+    margin-left: 14px;
+}
