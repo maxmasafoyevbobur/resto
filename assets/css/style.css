@@ -22,6 +22,7 @@
     color: black;
 }
 
+
 .header-ul li a:hover {
     color: red;
     transition: 0.3s;
@@ -377,7 +378,7 @@ p {
     transform: translateY(-3px);
 }
 
-#main-section-2{
+#main-section-2 {
     margin-top: 100px;
 }
 
@@ -391,13 +392,13 @@ p {
     font-size: 12px;
 }
 
-.our-menu h5:hover{
+.our-menu h5:hover {
     color: blue;
     transition: 0.3s;
-    transform: translateY(-3px); 
+    transform: translateY(-3px);
 }
 
-.our-menu h1:hover{
+.our-menu h1:hover {
     color: red;
     transition: 0.3s;
     transform: translateY(-3px);
@@ -417,7 +418,7 @@ p {
     font-size: 24px;
 }
 
-.our__menu-h2 h2:hover{
+.our__menu-h2 h2:hover {
     color: rgb(31, 97, 31);
     transition: 0.3s;
     transform: translateY(-3px);
@@ -451,7 +452,7 @@ p {
     font-weight: 100;
 }
 
-.menu-desc h3:hover{
+.menu-desc h3:hover {
     color: red;
     transition: 0.3s;
     transform: translateY(-3px);
@@ -464,13 +465,82 @@ p {
     margin-left: -40px;
 }
 
-.menu-desc p:hover{
+.menu-desc p:hover {
     color: blue;
     transition: 0.3s;
     transform: translateY(-3px);
 }
 
-.egg-sandwich-2>h2,
+.egg-sandwich-2 h2,
 .egg-sandwich-2 hr {
     display: none;
+}
+
+#main-section-4 {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 500px;
+    margin-top: 100px;
+    background-image: url(../images/img/testi-bg.jpg);
+}
+
+.main-section__4 {
+    color: white;
+    padding-top: 120px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.main-section__4 h1 {
+    margin-bottom: 14px;
+}
+
+.main-section__4 h1:hover {
+    color: purple;
+    transition: 0.3s;
+    transform: translateY(-3px);
+}
+
+.main-section__4 p {
+    font-size: 28px;
+    margin-left: -180px;
+    color: rgb(206, 201, 201);
+    font-weight: 100;
+    margin-bottom: 50px;
+}
+
+.main-section__4 i:hover{
+    color: blue;
+    transition: 0.3s;
+}
+
+.main-section__4 p:hover{
+    color: red;
+    transition: 0.3s;
+    transform: translateY(-3px);
+}
+
+.main-section__4 h6 {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.main-section__4 h6:hover{
+    color: rgb(51, 142, 51);
+    transition: 0.3s;
+    transform: translateY(-3px);
+}
+
+.main-section__4 h5 {
+    color: rgb(174, 170, 170);
+    font-weight: bold;
+}
+
+.main-section__4 h5:hover{
+    color: blue;
+    transition: 0.3s;
+    transform: translateY(-3px);
 }
