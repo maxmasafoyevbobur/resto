@@ -615,6 +615,13 @@ p {
     margin-left: 14px;
 }
 
+.chef-1 button:hover{
+    color: white;
+    background-color: blue;
+    border: 5px solid blue;
+    transition: 0.3s;
+    transform: translateY(-3px);
+}
 
 .chef-2 button{
     font-size: 18px;
@@ -626,6 +633,14 @@ p {
     margin-left: 8px;
 }
 
+.chef-2 button:hover{
+    color: white;
+    background-color: blue;
+    border: 5px solid blue;
+    transition: 0.3s;
+    transform: translateY(-3px);
+}
+
 
 .chef-3 button{
     font-size: 18px;
@@ -635,4 +650,12 @@ p {
     background-color: white;
     margin-top: 498px;
     margin-left: 14px;
+}
+
+.chef-3 button:hover{
+    color: white;
+    background-color: blue;
+    border: 5px solid blue;
+    transition: 0.3s;
+    transform: translateY(-3px);
 }
