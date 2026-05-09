@@ -8,7 +8,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 35px 250px;
+    padding: 20px 10%;
 }
 
 .header-ul {
@@ -23,7 +23,7 @@
 }
 
 .header-ul li a:hover {
-    color: #E74C3C;
+    color: red;
     transition: 0.3s;
 }
 
@@ -33,31 +33,339 @@
 }
 
 .header-cont {
-    padding-top: 130px;
-    padding-left: 240px;
+    padding-top: 10%;
+    padding-left: 10%;
 }
 
-.header-cont-h1 h1{
-    font-size: 38px;
-    font-weight: 200;
+.header-cont-h1 h1 {
+    font-size: 40px;
+    font-weight: 100;
     margin-bottom: 20px;
 }
 
-.header-button button{
+.header-cont-h1 h1:hover {
+    color: red;
+    transition: 0.3s;
+    transform: translateY(-3px);
+}
+
+
+.header-button button {
     padding: 5px 12px;
     background-color: red;
     border: 10px solid;
+    border-radius: 20px;
     color: white;
     margin-bottom: 80px;
 }
 
+.header-hero img {
+    margin-top: -28%;
+    margin-left: 48%;
+}
 
 .header-icon-icon {
     display: flex;
     flex-direction: column;
+    text-align: center;
+}
+
+.header-icon-icon:hover {
+    color: blue;
+    transition: 0.3s;
+    transform: translateY(-3px);
+}
+
+#header-section {
+    margin-top: -13%;
 }
 
 .header-icon-2 {
     display: flex;
     gap: 25px;
+}
+
+main {
+    padding-top: 25%;
+}
+
+.hero-2 img {
+    width: 30%;
+    height: 30%;
+    margin-left: 150px;
+}
+
+#main-2 {
+    margin-left: 45%;
+    margin-top: -33%;
+}
+
+.main-hero {
+    display: flex;
+}
+
+.main-hero-1 img {
+    width: 60%;
+}
+
+.main-3 h6 {
+    color: rgb(152, 40, 40);
+}
+
+.main-3 h6:hover {
+    color: blue;
+    transform: translateY(-2px);
+}
+
+.main-3 h1 {
+    margin-bottom: 25px;
+}
+
+.main-3 h1:hover {
+    color: rgb(0, 76, 255);
+    transition: 0.3s;
+    transform: translateY(-3px);
+}
+
+.main-3 p {
+    color: rgb(81, 72, 72);
+    font-weight: 100;
+    margin-bottom: 30px;
+    margin-left: -13%;
+}
+
+.main-3 p:hover {
+    color: rgb(48, 88, 167);
+    transition: 0.3;
+    transform: translateY(-3px);
+}
+
+.main-4 h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.main-4 h3:hover {
+    color: rgb(56, 169, 152);
+    transition: 0.3;
+    transform: translateY(-3px);
+}
+
+.main-hero-1 p {
+    color: rgb(221, 32, 32);
+    text-align: center;
+    margin-left: -52%;
+}
+
+.main-hero-1 p:hover {
+    color: blue;
+    transition: 0.3s;
+    transform: translateY(-3px);
+}
+
+
+#main-menu {
+    margin-top: 19%;
+}
+
+#main-menu {
+    background-color: rgb(238, 238, 246);
+}
+
+.main-menu-2 h6 {
+    color: rgb(181, 48, 48);
+}
+
+.main-menu-2 h6:hover {
+    color: red;
+    transition: 0.3s;
+    transform: translateY(-2px);
+}
+
+.main-menu-2 h1:hover {
+    color: red;
+    transform: translateY(-3px);
+}
+
+.main-menu-2 {
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.menu-1 h1 {
+    padding-left: 10%;
+}
+
+.menu-1 h1:hover {
+    color: red;
+    transition: 0.3s;
+    transform: translateY(-3px);
+}
+
+.menu-1 hr {
+    width: 200px;
+    margin-left: 210px;
+    margin-top: -10px;
+    margin-bottom: 35px;
+}
+
+.menu-2 h3 {
+    color: rgb(234, 67, 67);
+}
+
+.menu-2 h3:hover {
+    color: blue;
+    transition: 0.3s;
+    transform: translateY(-3px);
+}
+
+.menu-2 h2 {
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.menu-2 h2:hover {
+    color: #FF4B2B;
+    transform: translateY(-3px);
+}
+
+.menu-2 h3,
+h2,
+p {
+    padding-left: 14%;
+}
+
+.menu-2 p:hover {
+    color: rgb(111, 111, 237);
+    transition: 0.3s;
+    transform: translateY(-3px);
+}
+
+.menu-2 p {
+    color: rgb(110, 104, 104);
+    margin-bottom: 5px;
+}
+
+.menu-2 h1 {
+    padding-left: 14%;
+    font-weight: 600;
+    margin-bottom: 18px;
+}
+
+.menu-2 h1:hover {
+    color: rgb(37, 37, 168);
+    transition: 0.3s;
+    transform: translateY(-3px);
+}
+
+.menu-2 button {
+    border-radius: 10px;
+    border: 1px solid red;
+    background-color: red;
+    color: white;
+    padding: 8px 16px;
+    margin-left: 14%;
+}
+
+.menu-2 button:hover {
+    background-color: blue;
+    color: white;
+    transition: 0.3s;
+    transform: translateY(-3px);
+}
+
+.hero-4-4 {
+    padding-left: 55%;
+    margin-top: -30%;
+}
+
+.main-menu_2 {
+    display: flex;
+    gap: 200px;
+    align-items: center;
+    padding-top: 12%;
+    padding-left: 14%;
+}
+
+.menu_1 h1 {
+    font-weight: bold;
+    font-size: 42px;
+    margin-top: -220px;
+}
+
+.menu_1 h1:hover{
+    color: red;
+    transition: 0.3s;
+    transform: translateY(-3px);
+}
+
+.menu_1 hr {
+    width: 222px;
+    margin-left: 80px;
+    margin-top: -15px;
+}
+
+.menu__2 {
+    margin-left: -32%;
+}
+
+.menu__2 h3 {
+    color: rgb(234, 67, 67);
+}
+
+.menu__2 h3:hover{
+    color: blue;
+    transition: 0.3s;
+    transform: translateY(-3px);
+}
+
+.menu__2 h2 {
+    margin-left: -40px;
+    font-weight: 600;
+    margin-bottom: 35px;
+}
+
+.menu__2 h2:hover{
+    color: blue;
+    transition: 0.3s;
+    transform: translateY(-3px);
+}
+
+.menu__2 p {
+    margin-left: -14%;
+    color: rgb(110, 104, 104);
+    margin-bottom: 5px;
+}
+
+.menu__2 p:hover{
+    color: rgb(111, 111, 237);
+    transition: 0.3s;
+    transform: translateY(-3px);
+}
+
+.menu__2 h1 {
+    font-weight: 600;
+    margin-bottom: 18px;
+}
+
+.menu__2 h1:hover{
+    color: rgb(12, 104, 135);
+    transition: 0.3s;
+    transform: translateY(-3px);
+}
+
+.menu__2 button {
+    border-radius: 10px;
+    border: 1px solid red;
+    background-color: red;
+    color: white;
+    padding: 8px 16px;
+}
+
+.menu__2 button:hover{
+    color: white;
+    background-color: blue;
+    transition: 0.3s;
+    transform: translateY(-3px);
 }
