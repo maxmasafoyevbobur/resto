@@ -59,7 +59,7 @@
     margin-bottom: 80px;
 }
 
-.header-button button:hover{
+.header-button button:hover {
     color: white;
     background-color: blue;
     transition: 0.3s;
@@ -301,7 +301,7 @@ p {
     margin-top: -220px;
 }
 
-.menu_1 h1:hover{
+.menu_1 h1:hover {
     color: red;
     transition: 0.3s;
     transform: translateY(-3px);
@@ -321,7 +321,7 @@ p {
     color: rgb(234, 67, 67);
 }
 
-.menu__2 h3:hover{
+.menu__2 h3:hover {
     color: blue;
     transition: 0.3s;
     transform: translateY(-3px);
@@ -333,7 +333,7 @@ p {
     margin-bottom: 35px;
 }
 
-.menu__2 h2:hover{
+.menu__2 h2:hover {
     color: blue;
     transition: 0.3s;
     transform: translateY(-3px);
@@ -345,7 +345,7 @@ p {
     margin-bottom: 5px;
 }
 
-.menu__2 p:hover{
+.menu__2 p:hover {
     color: rgb(111, 111, 237);
     transition: 0.3s;
     transform: translateY(-3px);
@@ -356,7 +356,7 @@ p {
     margin-bottom: 18px;
 }
 
-.menu__2 h1:hover{
+.menu__2 h1:hover {
     color: rgb(12, 104, 135);
     transition: 0.3s;
     transform: translateY(-3px);
@@ -370,9 +370,107 @@ p {
     padding: 8px 16px;
 }
 
-.menu__2 button:hover{
+.menu__2 button:hover {
     color: white;
     background-color: blue;
     transition: 0.3s;
     transform: translateY(-3px);
+}
+
+#main-section-2{
+    margin-top: 100px;
+}
+
+.our-menu {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.our-menu h5 {
+    color: #ff6b6b;
+    font-size: 12px;
+}
+
+.our-menu h5:hover{
+    color: blue;
+    transition: 0.3s;
+    transform: translateY(-3px); 
+}
+
+.our-menu h1:hover{
+    color: red;
+    transition: 0.3s;
+    transform: translateY(-3px);
+}
+
+.umumiy-menu {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.our__menu-h2 h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 24px;
+}
+
+.our__menu-h2 h2:hover{
+    color: rgb(31, 97, 31);
+    transition: 0.3s;
+    transform: translateY(-3px);
+}
+
+.egg-sandwich-2 {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 25px;
+    padding-bottom: 10px;
+    border-bottom: 1px dotted #ccc;
+}
+
+.egg-sandwich-2 img {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.menu-desc {
+    flex-grow: 1;
+}
+
+.menu-desc h3 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    font-size: 17px;
+    font-weight: 100;
+}
+
+.menu-desc h3:hover{
+    color: red;
+    transition: 0.3s;
+    transform: translateY(-3px);
+}
+
+.menu-desc p {
+    margin: 5px 0 0 0;
+    font-size: 14px;
+    color: #888;
+    margin-left: -40px;
+}
+
+.menu-desc p:hover{
+    color: blue;
+    transition: 0.3s;
+    transform: translateY(-3px);
+}
+
+.egg-sandwich-2>h2,
+.egg-sandwich-2 hr {
+    display: none;
 }
