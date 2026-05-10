@@ -671,8 +671,10 @@ p {
     background-image: url(../images/img/reservation-bg.jpg);
 }
 
-.main-section__6 h5 {
-    color: rgb(214, 67, 67);
+.main-section__6 h5:hover{
+    color: blue;
+    transition: 0.3s;
+    transform: translateY(-3px);
 }
 
 .row {
@@ -715,6 +717,12 @@ p {
     font-weight: bold;
 }
 
+.main-section__6 h1:hover{
+    color: brown;
+    transition: 0.3s;
+    transform: translateY(-3px);
+}
+
 .form-group {
     margin-bottom: 15px;
     width: 100%;
@@ -728,8 +736,6 @@ textarea {
     border: 1px solid #ddd;
     border-radius: 5px;
     font-size: 15px;
-    outline: none;
-    box-sizing: border-box;
 }
 
 .row {
@@ -747,7 +753,7 @@ textarea {
     font-weight: bold;
     cursor: pointer;
     margin-top: 10px;
-    transition: 0.3s ease;
+    transition: 0.3s;
 }
 
 .btn-send:hover {
