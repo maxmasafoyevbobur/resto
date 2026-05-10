@@ -510,12 +510,12 @@ p {
     margin-bottom: 50px;
 }
 
-.main-section__4 i:hover{
+.main-section__4 i:hover {
     color: blue;
     transition: 0.3s;
 }
 
-.main-section__4 p:hover{
+.main-section__4 p:hover {
     color: red;
     transition: 0.3s;
     transform: translateY(-3px);
@@ -528,7 +528,7 @@ p {
     margin-bottom: 20px;
 }
 
-.main-section__4 h6:hover{
+.main-section__4 h6:hover {
     color: rgb(51, 142, 51);
     transition: 0.3s;
     transform: translateY(-3px);
@@ -539,7 +539,7 @@ p {
     font-weight: bold;
 }
 
-.main-section__4 h5:hover{
+.main-section__4 h5:hover {
     color: blue;
     transition: 0.3s;
     transform: translateY(-3px);
@@ -553,22 +553,22 @@ p {
     text-align: center;
 }
 
-.main-section__5 h5{
+.main-section__5 h5 {
     color: red;
     font-weight: 100;
 }
 
-.main-section__5 h5:hover{
+.main-section__5 h5:hover {
     color: blue;
     transition: 0.3s;
     transform: translateY(-3px);
 }
 
-.main-section__5 h1{
+.main-section__5 h1 {
     font-weight: bold;
 }
 
-.main-section__5 h1:hover{
+.main-section__5 h1:hover {
     color: red;
     transition: 0.3s;
     transform: translateY(-3px);
@@ -588,6 +588,7 @@ p {
     height: 600px;
     background-image: url(../images/img/chef-1.jpg);
 }
+
 .chef-2 {
     background-size: cover;
     background-position: center;
@@ -596,6 +597,7 @@ p {
     height: 600px;
     background-image: url(../images/img/chef-2.jpg);
 }
+
 .chef-3 {
     background-size: cover;
     background-position: center;
@@ -605,7 +607,7 @@ p {
     background-image: url(../images/img/chef-3.jpg);
 }
 
-.chef-1 button{
+.chef-1 button {
     font-size: 18px;
     font-weight: bold;
     padding: 22px 33%;
@@ -615,7 +617,7 @@ p {
     margin-left: 14px;
 }
 
-.chef-1 button:hover{
+.chef-1 button:hover {
     color: white;
     background-color: blue;
     border: 5px solid blue;
@@ -623,7 +625,7 @@ p {
     transform: translateY(-3px);
 }
 
-.chef-2 button{
+.chef-2 button {
     font-size: 18px;
     font-weight: bold;
     padding: 22px 33%;
@@ -633,7 +635,7 @@ p {
     margin-left: 8px;
 }
 
-.chef-2 button:hover{
+.chef-2 button:hover {
     color: white;
     background-color: blue;
     border: 5px solid blue;
@@ -642,7 +644,7 @@ p {
 }
 
 
-.chef-3 button{
+.chef-3 button {
     font-size: 18px;
     font-weight: bold;
     padding: 22px 33%;
@@ -652,10 +654,108 @@ p {
     margin-left: 14px;
 }
 
-.chef-3 button:hover{
+.chef-3 button:hover {
     color: white;
     background-color: blue;
     border: 5px solid blue;
     transition: 0.3s;
     transform: translateY(-3px);
+}
+
+#main-section-6 {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 600px;
+    margin-top: 200px;
+    background-image: url(../images/img/reservation-bg.jpg);
+}
+
+.main-section__6 h5 {
+    color: rgb(214, 67, 67);
+}
+
+.row {
+    display: flex;
+    gap: 20px;
+}
+
+/* 1. Asosiy sectionni rasm bilan to'g'irlaymiz */
+#main-section-6 {
+    background: url(../images/img/reservation-bg.jpg) no-repeat;
+    padding: 80px 0;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-section {
+    background: #ffffff;
+    width: 100%;
+    max-width: 450px;
+    margin-left: -33%;
+    padding: 40px;
+    border-radius: 8px;
+    margin-top: 300px;
+}
+
+.main-section__6 h5 {
+    color: #ff4d4d;
+    font-size: 8px;
+    margin-bottom: 5px;
+}
+
+.main-section__6 {
+    text-align: center;
+}
+
+.main-section__6 h1 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 15px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+    gap: 15px;
+}
+
+.row .form-group {
+    flex: 1;
+}
+
+.btn-send {
+    width: 100%;
+    background: #ff4d4d;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.3s ease;
+}
+
+.btn-send:hover {
+    background: #e63939;
+    box-shadow: 0 5px 15px rgba(255, 77, 77, 0.4);
 }

@@ -369,6 +369,59 @@
                 </div>
             </div>
         </section>
+
+        <section id="main-section-6">
+            <form class="form-section">
+                <div class="main-section__6">
+                    <h5>Reservation</h5>
+                    <h1>Book Now</h1>
+                </div>
+                <div class="form-group">
+                    <label for="name"></label>
+                    <input type="text" id="name" placeholder="Name">
+                </div>
+
+                <div class="form-group">
+                    <label for="email"></label>
+                    <input type="email" id="email" placeholder="Email">
+                </div>
+
+                <div class="form-group">
+                    <label for="phone"></label>
+                    <input type="tel" id="phone" placeholder="Phone">
+                </div>
+
+                <div class="row">
+                    <div class="form-group">
+                        <label for="date"></label>
+                        <input type="text" id="date" placeholder="Date" onfocus="(this.type='date')"
+                            onblur="if(!this.value)this.type='text'">
+                    </div>
+                    <div class="form-group">
+                        <label for="time"></label>
+                        <input type="text" id="time" placeholder="Time" onfocus="(this.type='time')"
+                            onblur="if(!this.value)this.type='text'">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="person"></label>
+                    <select id="person">
+                        <option value="" disabled selected>Person</option>
+                        <option value="1">1 Person</option>
+                        <option value="2">2 Persons</option>
+                        <option value="3">3 Persons</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="message"></label>
+                    <textarea id="message" rows="4" placeholder="Your Message ..."></textarea>
+                </div>
+
+                <button type="submit" class="btn-send">Send Message</button>
+            </form>
+        </section>
     </main>
     <!-- /main -->
     <footer>
