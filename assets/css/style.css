@@ -22,7 +22,6 @@
     color: black;
 }
 
-
 .header-ul li a:hover {
     color: red;
     transition: 0.3s;
@@ -49,7 +48,6 @@
     transition: 0.3s;
     transform: translateY(-3px);
 }
-
 
 .header-button button {
     padding: 5px 12px;
@@ -142,12 +140,6 @@ main {
     margin-left: -13%;
 }
 
-.main-3 p:hover {
-    color: rgb(48, 88, 167);
-    transition: 0.3;
-    transform: translateY(-3px);
-}
-
 .main-4 h3 {
     font-size: 24px;
     font-weight: 600;
@@ -171,7 +163,6 @@ main {
     transition: 0.3s;
     transform: translateY(-3px);
 }
-
 
 #main-menu {
     margin-top: 19%;
@@ -643,7 +634,6 @@ p {
     transform: translateY(-3px);
 }
 
-
 .chef-3 button {
     font-size: 18px;
     font-weight: bold;
@@ -779,7 +769,7 @@ textarea {
     margin-bottom: 20px;
 }
 
-.resto-footer p:hover{
+.resto-footer p:hover {
     color: rgb(80, 200, 227);
     transition: 0.3s;
     transform: translateY(-3px);
@@ -795,14 +785,13 @@ textarea {
     margin-left: 13%;
 }
 
-
 .resto-footer-2 h2 {
     margin-left: 30%;
     margin-top: -15%;
     margin-bottom: 20px;
 }
 
-.resto-footer-2 h2:hover{
+.resto-footer-2 h2:hover {
     color: rgb(223, 29, 29);
     transition: 0.3s;
     transform: translateY(-3px);
@@ -814,7 +803,7 @@ textarea {
     font-weight: 100;
 }
 
-.resto-footer__3 h4:hover{
+.resto-footer__3 h4:hover {
     color: blue;
     transition: 0.3s;
     transform: translateY(-3px);
@@ -826,7 +815,7 @@ textarea {
     color: rgb(84, 76, 76);
 }
 
-.resto-footer___3 p:hover{
+.resto-footer___3 p:hover {
     color: red;
     transition: 0.3s;
     transform: translateY(-3px);
@@ -851,31 +840,31 @@ textarea {
     margin-top: -11%;
 }
 
-.resto__footer h1{
+.resto__footer h1 {
     font-weight: 100;
     margin-bottom: 20px;
 }
 
-.resto__footer  h1:hover{
+.resto__footer h1:hover {
     color: aqua;
     transition: 0.3s;
     transform: translateY(-3px);
 }
 
-.resto__footer p{
+.resto__footer p {
     margin-left: -14%;
     color: rgb(66, 64, 64);
     font-weight: 100;
     margin-bottom: 10px;
 }
 
-.resto__footer p:hover{
+.resto__footer p:hover {
     color: red;
     transition: 0.3s;
     transform: translateY(-3px);
 }
 
-.footer-email{
+.footer-email {
     margin-bottom: 20px;
 }
 
@@ -887,7 +876,7 @@ textarea {
     border-radius: 25px;
 }
 
-.footer-button button:hover{
+.footer-button button:hover {
     color: white;
     background-color: blue;
     border: 1px solid blue;
@@ -895,14 +884,14 @@ textarea {
     transform: translateY(-3px);
 }
 
-.footer-6 p{
+.footer-6 p {
     margin-left: -122%;
     margin-top: 80px;
     color: rgb(112, 104, 104);
     font-weight: 100;
 }
 
-.footer-6 p:hover{
+.footer-6 p:hover {
     color: blue;
     transition: 0.3s;
     transform: translateY(-3px);
