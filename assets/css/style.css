@@ -76,12 +76,6 @@
     text-align: center;
 }
 
-.header-icon-icon:hover {
-    color: blue;
-    transition: 0.3s;
-    transform: translateY(-3px);
-}
-
 #header-section {
     margin-top: -13%;
 }
@@ -92,7 +86,7 @@
 }
 
 main {
-    padding-top: 25%;
+    padding-top: 20%;
 }
 
 .hero-2 img {
@@ -115,12 +109,7 @@ main {
 }
 
 .main-3 h6 {
-    color: rgb(152, 40, 40);
-}
-
-.main-3 h6:hover {
-    color: blue;
-    transform: translateY(-2px);
+    color: rgb(228, 54, 54);
 }
 
 .main-3 h1 {
@@ -146,26 +135,18 @@ main {
     margin-bottom: 10px;
 }
 
-.main-4 h3:hover {
-    color: rgb(56, 169, 152);
-    transition: 0.3;
-    transform: translateY(-3px);
-}
-
 .main-hero-1 p {
     color: rgb(221, 32, 32);
     text-align: center;
     margin-left: -52%;
 }
 
-.main-hero-1 p:hover {
-    color: blue;
-    transition: 0.3s;
-    transform: translateY(-3px);
+#main-menu {
+    margin-top: 12%;
 }
 
-#main-menu {
-    margin-top: 19%;
+.main-menu-1{
+    margin-left: 6%;
 }
 
 #main-menu {
@@ -173,13 +154,13 @@ main {
 }
 
 .main-menu-2 h6 {
+    font-size: 14px;
+    padding: 20px;
     color: rgb(181, 48, 48);
 }
 
-.main-menu-2 h6:hover {
-    color: red;
-    transition: 0.3s;
-    transform: translateY(-2px);
+.main-menu-2 h1{
+    margin-top: -10px;
 }
 
 .main-menu-2 h1:hover {
@@ -194,12 +175,6 @@ main {
 
 .menu-1 h1 {
     padding-left: 10%;
-}
-
-.menu-1 h1:hover {
-    color: red;
-    transition: 0.3s;
-    transform: translateY(-3px);
 }
 
 .menu-1 hr {
@@ -224,21 +199,8 @@ main {
     margin-bottom: 30px;
 }
 
-.menu-2 h2:hover {
-    color: #FF4B2B;
-    transform: translateY(-3px);
-}
-
-.menu-2 h3,
-h2,
-p {
+.menu-2 h3, h2, p {
     padding-left: 14%;
-}
-
-.menu-2 p:hover {
-    color: rgb(111, 111, 237);
-    transition: 0.3s;
-    transform: translateY(-3px);
 }
 
 .menu-2 p {
@@ -250,12 +212,6 @@ p {
     padding-left: 14%;
     font-weight: 600;
     margin-bottom: 18px;
-}
-
-.menu-2 h1:hover {
-    color: rgb(37, 37, 168);
-    transition: 0.3s;
-    transform: translateY(-3px);
 }
 
 .menu-2 button {
@@ -293,12 +249,6 @@ p {
     margin-top: -220px;
 }
 
-.menu_1 h1:hover {
-    color: red;
-    transition: 0.3s;
-    transform: translateY(-3px);
-}
-
 .menu_1 hr {
     width: 222px;
     margin-left: 80px;
@@ -313,22 +263,10 @@ p {
     color: rgb(234, 67, 67);
 }
 
-.menu__2 h3:hover {
-    color: blue;
-    transition: 0.3s;
-    transform: translateY(-3px);
-}
-
 .menu__2 h2 {
     margin-left: -40px;
     font-weight: 600;
     margin-bottom: 35px;
-}
-
-.menu__2 h2:hover {
-    color: blue;
-    transition: 0.3s;
-    transform: translateY(-3px);
 }
 
 .menu__2 p {
@@ -337,21 +275,9 @@ p {
     margin-bottom: 5px;
 }
 
-.menu__2 p:hover {
-    color: rgb(111, 111, 237);
-    transition: 0.3s;
-    transform: translateY(-3px);
-}
-
 .menu__2 h1 {
     font-weight: 600;
     margin-bottom: 18px;
-}
-
-.menu__2 h1:hover {
-    color: rgb(12, 104, 135);
-    transition: 0.3s;
-    transform: translateY(-3px);
 }
 
 .menu__2 button {
@@ -383,14 +309,8 @@ p {
     font-size: 12px;
 }
 
-.our-menu h5:hover {
-    color: blue;
-    transition: 0.3s;
-    transform: translateY(-3px);
-}
-
 .our-menu h1:hover {
-    color: red;
+    color: blue;
     transition: 0.3s;
     transform: translateY(-3px);
 }
@@ -407,12 +327,6 @@ p {
     text-align: center;
     margin-bottom: 30px;
     font-size: 24px;
-}
-
-.our__menu-h2 h2:hover {
-    color: rgb(31, 97, 31);
-    transition: 0.3s;
-    transform: translateY(-3px);
 }
 
 .egg-sandwich-2 {
@@ -443,23 +357,11 @@ p {
     font-weight: 100;
 }
 
-.menu-desc h3:hover {
-    color: red;
-    transition: 0.3s;
-    transform: translateY(-3px);
-}
-
 .menu-desc p {
     margin: 5px 0 0 0;
     font-size: 14px;
     color: #888;
     margin-left: -40px;
-}
-
-.menu-desc p:hover {
-    color: blue;
-    transition: 0.3s;
-    transform: translateY(-3px);
 }
 
 .egg-sandwich-2 h2,
@@ -487,12 +389,6 @@ p {
     margin-bottom: 14px;
 }
 
-.main-section__4 h1:hover {
-    color: purple;
-    transition: 0.3s;
-    transform: translateY(-3px);
-}
-
 .main-section__4 p {
     font-size: 28px;
     margin-left: -180px;
@@ -501,28 +397,11 @@ p {
     margin-bottom: 50px;
 }
 
-.main-section__4 i:hover {
-    color: blue;
-    transition: 0.3s;
-}
-
-.main-section__4 p:hover {
-    color: red;
-    transition: 0.3s;
-    transform: translateY(-3px);
-}
-
 .main-section__4 h6 {
     font-size: 14px;
     font-weight: bold;
     margin-top: 50px;
     margin-bottom: 20px;
-}
-
-.main-section__4 h6:hover {
-    color: rgb(51, 142, 51);
-    transition: 0.3s;
-    transform: translateY(-3px);
 }
 
 .main-section__4 h5 {
@@ -549,18 +428,13 @@ p {
     font-weight: 100;
 }
 
-.main-section__5 h5:hover {
-    color: blue;
-    transition: 0.3s;
-    transform: translateY(-3px);
-}
 
 .main-section__5 h1 {
     font-weight: bold;
 }
 
 .main-section__5 h1:hover {
-    color: red;
+    color: blue;
     transition: 0.3s;
     transform: translateY(-3px);
 }
@@ -661,12 +535,6 @@ p {
     background-image: url(../images/img/reservation-bg.jpg);
 }
 
-.main-section__6 h5:hover {
-    color: blue;
-    transition: 0.3s;
-    transform: translateY(-3px);
-}
-
 .row {
     display: flex;
     gap: 20px;
@@ -708,7 +576,7 @@ p {
 }
 
 .main-section__6 h1:hover {
-    color: brown;
+    color: blue;
     transition: 0.3s;
     transform: translateY(-3px);
 }
@@ -746,13 +614,8 @@ textarea {
     transition: 0.3s;
 }
 
-.btn-send:hover {
-    background: #e63939;
-    box-shadow: 0 5px 15px rgba(255, 77, 77, 0.4);
-}
-
 #footer {
-    margin-top: 30%;
+    margin-top: 27%;
     margin-left: -3%;
 }
 
@@ -767,12 +630,6 @@ textarea {
     font-weight: 100;
     margin-left: -15px;
     margin-bottom: 20px;
-}
-
-.resto-footer p:hover {
-    color: rgb(80, 200, 227);
-    transition: 0.3s;
-    transform: translateY(-3px);
 }
 
 .resto-footer i {
@@ -792,7 +649,7 @@ textarea {
 }
 
 .resto-footer-2 h2:hover {
-    color: rgb(223, 29, 29);
+    color: red;
     transition: 0.3s;
     transform: translateY(-3px);
 }
@@ -803,22 +660,10 @@ textarea {
     font-weight: 100;
 }
 
-.resto-footer__3 h4:hover {
-    color: blue;
-    transition: 0.3s;
-    transform: translateY(-3px);
-}
-
 .resto-footer___3 {
     margin-left: 48%;
     margin-top: -8%;
     color: rgb(84, 76, 76);
-}
-
-.resto-footer___3 p:hover {
-    color: red;
-    transition: 0.3s;
-    transform: translateY(-3px);
 }
 
 .footer-email {
@@ -846,7 +691,7 @@ textarea {
 }
 
 .resto__footer h1:hover {
-    color: aqua;
+    color: blue;
     transition: 0.3s;
     transform: translateY(-3px);
 }
@@ -856,12 +701,6 @@ textarea {
     color: rgb(66, 64, 64);
     font-weight: 100;
     margin-bottom: 10px;
-}
-
-.resto__footer p:hover {
-    color: red;
-    transition: 0.3s;
-    transform: translateY(-3px);
 }
 
 .footer-email {
